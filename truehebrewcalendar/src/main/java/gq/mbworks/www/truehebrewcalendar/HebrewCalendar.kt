@@ -14,6 +14,7 @@ class HebrewCalendar private constructor(
         var luazitTimeInMills: Long? =null,
         var luazitDate: Date? = null
     ){
+        fun setLuazitTimeInMills(luazitTimeInMills: Long) = apply{this.luazitTimeInMills = luazitTimeInMills}
         fun build() = HebrewCalendar(luazitTimeInMills, luazitDate)
     }
 
