@@ -1,0 +1,2 @@
+include ':app', ':truehebrewcalendar'
+rootProject.name='HebrewCalendar'
